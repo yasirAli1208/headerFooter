@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    
+<header>
+    <div class="cFluid">
+        <nav>
+            <div class="cMain">
+                <a href="" class="navB">
+                    <img src="logo.png" alt="">
+                </a>
+                <ul class="mainNav">
+                    <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page" href="http://nxtwavemedia.herokuapp.com">Home</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/products">Products</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/contact">Contact</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/faq">FAQs</a>
+                    </li>
+                                                <li class="nav-item px-5">
+                        <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/login">Login</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/register">Register</a>
+                    </li>
+                </ul>
+                <div class="bartss">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<br/>
+
+
+<div class="cFluid">
+    <footer>
+        <div class="cMain">
+            <div class="cRow">
+                <div class="Ccol-md-4 mt-5">
+                    <h4>CONTACT US</h4>
+                    <ul>
+                        <li>(518) 496 0211</li>
+                        <li>Connect@NxtWaveMedia.com</li>
+                        <li>Ballston Spa, NY 12020</li>
+                    </ul>
+                </div>
+                <div class="Ccol-md-4 mt-5">
+                    <h4>HOURS</h4>
+                    <ul>
+                        <li>Monday - Friday</li>
+                        <li>Saturday 11:00 - 17:00</li>
+                        <li>Sunday 12:30 - 16:30</li>
+                    </ul>
+                </div>
+                <div class="Ccol-md-4 mt-5">
+                    <h4>FOLLOW US</h4>
+                    <ul class="social_footer">
+                        <li class="icon_footer"><a href="https://m.facebook.com/Nxtwavemedia-101147725476989/"><i class="fab fa-facebook"></i></a> </li>
+                        <li class="icon_footer"><a href="https://instagram.com/nxt.wavemedia?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
+                        <li class="icon_footer"><a href="https://mobile.twitter.com/NXT_WAVEMEDIA"><i class="fab fa-twitter"></i></a></li>
+                        <li class="icon_footer"><a href="https://www.linkedin.com/in/NXTWAVEMEDIA"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="sideNaver" style="right: -250px;">
+    <ul class="mainNav"> 
+        <li class="nav-item px-5">
+            <a class="nav-link active" aria-current="page" href="http://nxtwavemedia.herokuapp.com">Home</a>
+        </li>
+        <li class="nav-item px-5">
+            <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/products">Products</a>
+        </li>
+        <li class="nav-item px-5">
+            <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/contact">Contact</a>
+        </li>
+        <li class="nav-item px-5">
+            <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/faq">FAQs</a>
+        </li>
+                                    <li class="nav-item px-5">
+            <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/login">Login</a>
+        </li>
+        <li class="nav-item px-5">
+            <a class="nav-link " href="http://nxtwavemedia.herokuapp.com/register">Register</a>
+        </li>
+    </ul>
+    <i class="fa fa-times"></i>
+</div>
+
+
+<script>
+    var btnsss = document.getElementsByClassName('fa-bars')[0];
+    var sider = document.getElementsByClassName('sideNaver')[0];
+    var cross = document.getElementsByClassName('fa-times')[0];
+
+
+    btnsss.addEventListener('click',()=>{
+        sider.style.right = '0px' 
+    })
+
+    cross.addEventListener('click',()=>{
+        sider.style.right = '-250px' 
+    })
+
+</script>
+
+</body>
+</html>

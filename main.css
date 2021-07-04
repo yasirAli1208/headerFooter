@@ -1,0 +1,142 @@
+.cFluid{
+    width: 100%;
+}
+nav{
+    background-color: #212529;
+}
+.cMain{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;  
+    padding: 0 1rem; 
+    justify-content: space-between;
+}
+ul.mainNav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.mainNav li{
+    height: 100%;
+}
+ul.mainNav li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid #f2813a00;
+    font-family: system-ui;
+}
+ul.mainNav li a.active{
+    border-color: #F2823A;
+}
+ul.mainNav li a:hover{
+    color: #fff;
+}
+.cMain .navB{
+    padding: 1rem 0;
+}
+.mt-5{
+    margin-top: 3rem;
+}
+.cMain .cRow{
+    display: flex;
+    width: 100%;
+}
+.cMain .cRow .Ccol-md-4{
+    
+    flex: calc(100%/3);
+}
+footer{
+    background-color: #000;
+}
+footer h4{
+    font-size: 24px;
+    color: #fff;
+    font-family: system-ui;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer ul li{
+    font-family: system-ui;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+.social_footer {
+    display: flex;
+}.icon_footer {
+    padding: 10px;
+}a {
+    text-decoration: none;
+    color: #fff;
+}
+.icon_footer i {
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+}
+.bartss{
+    display: none;
+}
+.sideNaver{
+    position: fixed;
+    top: 0%;
+    background-color: #212529;
+    width: 250px;
+    height: 100vh;
+    padding-top: 3rem;
+    transition: 0.5s all ease-in-out;
+}
+.sideNaver .fa-times{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+@media only screen and (max-width:768px){
+    .cMain .cRow {
+        flex-direction: column;
+        justify-content: center;
+    }.cMain .cRow .Ccol-md-4 {
+        flex: calc(100%/3);
+        text-align: center;
+    }.social_footer {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul.mainNav {
+        display: none;
+    }.bartss{
+        display: flex;
+        align-items: center;
+    }
+    .bartss i{
+        color: #fff;
+        font-size: 24px;
+    }
+    .sideNaver  ul.mainNav {
+        display: flex;
+        flex-direction: column;
+    }
+    .sideNaver ul.mainNav li a {
+        padding: 1rem;
+    }
+}
